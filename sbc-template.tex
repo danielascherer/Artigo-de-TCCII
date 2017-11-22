@@ -8,7 +8,7 @@
 \usepackage{amssymb}
 \usepackage[latin1]{inputenc}  
 \usepackage{lscape} 	 	
-
+\usepackage{amssymb}
 
 \setcounter{secnumdepth}{5}
 \setcounter{tocdepth}{5}  
@@ -417,34 +417,61 @@ Este trabalho teve como objetivo apoiar mulheres na identificação e denúncia de 
 \subsection{Planejamento}
 
 
-Na primeira etapa foi estudado o domínio do problema e as técnicas que foram empregadas em sua solução. Tendo em vista a diversidade de dispositivos que possibilitam a navegação na internet, e a necessidade da utilização da aplicação sem realizar a instalação, foi decidido  na web em um site responsivo. 
+Na primeira etapa foi estudado o domínio do problema e as técnicas que foram empregadas em sua solução. Tendo em vista a diversidade de dispositivos que possibilitam a navegação na internet e a necessidade da utilização da aplicação sem realizar a instalação ou identificação pessoal, optou-se pelo desenvolvimento de um website responsivo. 
+
 
 De forma geral, a aplicação proposta é constituída de duas funcionalidades: a primeira, de apoio à identificação de relacionamentos abusivos e caracterização da violência conforme a lei 11.340/06 e a segunda funcionalidade, de apoio à denúncia.
 
-Após a análise das características do domínio do problema optou-se pelo desenvolvimento de um sistema especialistas para a primeira funcionalidade. 
+
+A primeira foi desenvolvida como um sistema especialista, nesta funcionalidade serão apresentadas uma série de proposições as quais a usuária irá responder conforme suas vivências e ao final o sistma apresentará um nível de segurança sobre seu relacionamento podendo ser; relacionamento seguro, relacionamento de risco ou relacionamento abusivo. Em caso de relacionamento abusivo 
+os resultados são associadas à Lei Maria da Penha. 
 
 
-no qual  serão apresentadas uma série de proposições as quais a usuária irá responder conforme suas vivências e ao final, os resultados de suas respostas são associados à Lei Maria da Penha, se for o caso.
-
-
-
-
-
- Além disso, o sistmea apresentará um nível de segurança sobre o relacionamento podendo ser; relacionamento seguro, fique atenta a atitudes abusivas, você está envolvida em um relacionamento abusivo ou você está em situação de violência procure ajuda. 
-
-A segunda funcionalidade, de apoio à denúncia, será vinculada automaticamente as respostas apresentadas pela primeira funcionalidade quando identificados altos níveis de violência em um relacionamento, caso contrário poderá ser acessada em outra aba, como um espaço para informação a respeito dos procedimentos de denùncia de situações de violência, localizar serviços especializados no atendimento à mulher e telefones úteis. 
-
-Considerando que a aplicação visa a preservação da identidade da utilizadora não serão realizados cadastros para utilização das funcionalidades da aplicação.
+A segunda funcionalidade, de apoio à denúncia, está vinculada ao resultado de relacionamento abusivo da primeira funcionalidade e funciona como um espaço para informação sobre os procedimentos de denúncia, seus direitos e localização de serviços especializados no atendimento à mulher e telefones úteis. 
 
 \subsubsection{Aquisição de Conhecimento}
 
-A etapa de aquisição do conhecimento será realizada com as técnicas manuais baseadas em descrições, abordadas na seção 2.3.2.2, pois parte do conhecimento necessário para atingir os objetivos do sistema especialista encontra-se na lei 11.340/06 descrita na seção 2.2, e em bibliografias revisadas na seção 2.1. 
+Este passo compreende o estudo do domínio do SE proposto e a utilização de uma técnica para aquisição de conhecimento, sendo selecionada a técnica manual baseada em descrição, abordadas na seção 2.3.2.2. Parte do conhecimento adquirido para atingir os objetivos do sistema especialista foi encontrado na lei 11.340/06 descrita na seção 2.2, em bibliografias revisadas na seção 2.1, e em cartilhas governamentais de campanhas de conscientização da violência doméstica e lei Maria da Penha.  
 
-Para complementar esta etapa, será utilizado o conhecimento de um especialista humano da àrea do atendimento especializado à mulher, sobre como identificar se uma mulher está vivenciando um relacionamento abusivo. Para adquirir este conhecimento, será utilizada a técnica baseada em entrevista semi estruturada. 
+Para complementar esta etapa, foram utilizados os conhecimentos de especialistas humanos da àrea do atendimento especializado à mulher que atuam no Centro de Referencia Especializado de Assistência Social (CREAS) e no Centro de Referência de sistência Social (CRAS), sobre como identificar se uma mulher está vivenciando um relacionamento abusivo. Para adquirir este conhecimento utilizou-se a técnica baseada em entrevista semi estruturada. 
+
+
+\subsubsection{Modelagem}
+
+Com as informações obtidas na fase de análise e aquisição de conhecimento, partiu-se para etapa de modelagem do sistema, onde  a maneira que os dados serão estruturados na base de dados, o Sistema Gerenciador de Banco de Dados, o software para criação dos Diagramas de Casos de Uso e Entidade Relacionamento e para manipulação do banco de dados. 
+
+O Diagrama de Caso de Uso na sua forma mais simples identifica os agentes envolvidos em uma interação e especifica o tipo de interação, dando uma ideia geral de como o sistema irá se comportar\cite{sommerville2004}. Pode-se observar na (Figura~\ref{fig: Fig5}) o caso de uso, bem como seus atores e suas funções.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=.7\textwidth]{fig5.jpg}
+\caption{Diagrama de Casos de Uso}}
+\label{fig: Fig5}
+\end{figure}
+
+\begin{flushleft}
+\textbf{Onde:}
+\end{flushleft}
+\begin{itemize}
+   \item \textbf{Atores}
+   \begin{itemize}
+				\item \textbf{Usuário:} Pessoa que utiliza o sistema;
+    \end{itemize}
+	\item \textbf{Realizar Teste:} Entrar com as informações iniciais solicitadas pelo Quiz para que seja possível a caracterização do tipo de relacionamento.
+	
+	\item \textbf{Ver Informações:} Visualizar informações sobre os procedimentos de denúncia; 
+	\item \textbf{Ver Resultados:} Visualizar os resultados do teste do relacionamento;
+	\item \textbf{Ver Respostas:} Visualizar o histórico de perguntas e respostas daquela sessão de teste; 
+	
+ \end{itemize}
+
+
+
 
 \subsubsection{Implementação}
 
-Esta etapa é dedicada à construção do sistema especialista proposto juntamente com a representação formal do conhecimento adquirido através da ferramenta de engenharia de conhecimento. 
+
+ implementação que é dedicada à construção do sistema especialista proposto juntamente com a representação formal do conhecimento adquirido através da ferramenta de engenharia de conhecimento. 
 
 Considerando o domínio do problema, para o desenvolvimento do sistema especialista proposto será utilizada a plataforma web. Para representação formal do conhecimento será utilizado o método de regras de produção apresentado na seção 2.3.2.3 e em relação à linguagem de desenvolvimento, optou-se pela orientada a objetos JAVA, descrita no capítulo 2.3.2.3. Com objetivo de facilitar a implementação do sistema especialista, pretende-se utilizar a ferramenta de engenharia de conhecimento JESS ou DROOLS, descritas na seção 2.3.2.1.  
 

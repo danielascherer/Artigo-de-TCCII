@@ -1,10 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.3)  7 JUL 2017 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.3)  22 NOV 2017 01:18
 entering extended mode
-**"C:/Users/Giulia/Desktop/Leiutras TCC/template-latex giulia-DANI/sbc-template
-.tex"
-
-("C:/Users/Giulia/Desktop/Leiutras TCC/template-latex giulia-DANI/sbc-template.
-tex"
+**C:/Users/Giulia/Desktop/TCCII/Artigo-de-TCCII/sbc-template.tex
+(C:/Users/Giulia/Desktop/TCCII/Artigo-de-TCCII/sbc-template.tex
 LaTeX2e <2017/01/01> patch level 1
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -440,13 +437,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--323
 Underfull \vbox (badness 1708) has occurred while \output is active []
 
  [18]
-[19] [20] [21] <fig4.jpg, id=80, 1389.2703pt x 885.3075pt>
+[19] [20] [21]
+
+LaTeX Warning: Citation `maxim2016' on page 22 undefined on input line 443.
+
+<fig5.jpg, id=80, 706.64pt x 347.2975pt>
+File: fig5.jpg Graphic file (type jpg)
+ <use fig5.jpg>
+Package pdftex.def Info: fig5.jpg used on input line 447.
+(pdftex.def)             Requested size: 298.75264pt x 146.82843pt.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.450 \end{figure}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[22 <./fig5.jpg>] <fig4.jpg, id=84, 1389.2703pt x 885.3075pt>
 File: fig4.jpg Graphic file (type jpg)
  <use fig4.jpg>
-Package pdftex.def Info: fig4.jpg used on input line 447.
+Package pdftex.def Info: fig4.jpg used on input line 482.
 (pdftex.def)             Requested size: 384.1096pt x 244.7639pt.
 
-[22] [23 <./fig4.jpg>] (sbc-template.bbl [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 6625) has occurred while \output is active []
+
+ [24 <./fig4.jpg>] (sbc-template.bbl
 Underfull \hbox (badness 7740) in paragraph at lines 10--15
 []\OT1/ptm/m/n/12 Baruch, L. (2016).  TESTE: Voc[]e est[]a em um re-la-ci-o-na-
 mento abu-sivo?
@@ -458,7 +481,7 @@ Underfull \hbox (badness 1122) in paragraph at lines 10--15
 te-voce-esta-em-um-
  []
 
-
+[25]
 Underfull \hbox (badness 5652) in paragraph at lines 33--38
 []\OT1/ptm/m/n/12 Brasil (2006).  Lei N$[]$ 11.340, de 7 de Agosto de 2006.  Di
 s-pon[]vel
@@ -476,13 +499,13 @@ Underfull \hbox (badness 1152) in paragraph at lines 95--99
  Dis-pon[]vel em:
  []
 
-[25]
+
 Underfull \hbox (badness 1668) in paragraph at lines 125--129
 []\OT1/ptm/m/n/12 Herzberg, C. (2016).  JESS, The Java Ex-pert Sys-tem Shell.  
 Dis-pon[]vel em:
  []
 
-
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 136--141
 []\OT1/ptm/m/n/12 Instituto Avon e Ins-ti-tudo Data Po-pu-lar (2014).  Viol[]en
 cia Con-
@@ -505,39 +528,46 @@ Overfull \hbox (24.79388pt too wide) in paragraph at lines 144--149
 asenorgalvan.violentometro.
  []
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 263--268
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 268--273
 []\OT1/ptm/m/n/12 Secretaria Es-pe-cial de Pol[]ticas para as Mu-lhe-res (2015
 ).  Cli-que 180.
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 263--268
+Underfull \hbox (badness 2818) in paragraph at lines 268--273
 \OT1/ptm/m/n/12 https://play.google.com/store/apps/details?id=br.com.negociosre
 ais.sosmulher. Aces-
  []
 
-) [27] (sbc-template.aux) ) 
+) [28] (sbc-template.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3653 strings out of 493333
- 50541 string characters out of 3139192
- 127156 words of memory out of 3000000
- 7074 multiletter control sequences out of 15000+200000
+ 3660 strings out of 493333
+ 50566 string characters out of 3139192
+ 127185 words of memory out of 3000000
+ 7080 multiletter control sequences out of 15000+200000
  28889 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,14n,28p,1182b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r
-.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
-times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sbc-template.pdf (27 pages, 9755776 bytes).
+ 39i,14n,28p,1162b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
+vb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+urw/times/utmri8a.pfb>
+Output written on sbc-template.pdf (28 pages, 9785510 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 134 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
